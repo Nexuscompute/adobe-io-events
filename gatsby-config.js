@@ -132,12 +132,20 @@ module.exports = {
             path: 'guides/using/marketo/marketo-data-streams.md',
             pages: [
               {
-                title: "Marketo Observability Data Stream",
-                path: "guides/using/marketo/marketo-observability-data-stream-setup.md",
+                title: "Lead Activity",
+                path: "guides/using/marketo/marketo-lead-activity-data-stream-setup.md",
               },
               {
-                title: "Marketo User Audit Data Stream",
+                title: "User Audit",
                 path: "guides/using/marketo/marketo-user-audit-data-stream-setup.md",
+              },
+              {
+                title: "Notification",
+                path: "guides/using/marketo/marketo-notification-data-stream-setup.md",
+              },
+              {
+                title: "Observability (Beta)",
+                path: "guides/using/marketo/marketo-observability-data-stream-setup.md",
               },
             ],
           },
@@ -146,8 +154,8 @@ module.exports = {
             path: 'guides/using/custom_events.md'
           },
           {
-            title: 'InDesign Cloud Services Events',
-            path: 'guides/using/idcs/idcs-events-data-stream-setup.md'
+            title: 'InDesign APIs Events',
+            path: 'guides/using/indesign-apis/indesign-apis-events-data-stream-setup.md'
           }
         ]
       },

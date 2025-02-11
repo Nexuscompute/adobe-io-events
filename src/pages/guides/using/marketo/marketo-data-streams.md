@@ -18,15 +18,15 @@ These instructions describe how to set up and get started using Adobe I/O Events
 
 In order to allow for additional scalability and further programmatic automation of the Marketo platform, we have introduced the Marketo Data Streams.  The data streams are available to all CET and Performance Plus customers.  There are currently five data streams:
 
-- [Lead Activity Data Stream](https://developers.marketo.com/data-streams/#overview_lead_activity_data_stream)
-- Metrics Data Stream (Alpha)
-- Notification Data Stream (Beta)
+- [Lead Activity Data Stream](marketo-lead-activity-data-stream-setup.md)
+- [User Audit Data Stream](marketo-user-audit-data-stream-setup.md)
+- [Notification Data Stream](marketo-notification-data-stream-setup.md)
 - [Observability Data Stream (Beta)](marketo-observability-data-stream-setup.md)
-- [User Audit Data Stream (Beta)](marketo-user-audit-data-stream-setup.md)
+- Metrics Data Stream (Alpha)
 
 At this time, only the Notification, Observability, and User Audit streams are available within Adobe I/O Events, the Lead and Metrics streams can be subscribed to via alternate paths.
 
-Note: The Marketo Data Streams are currently in Beta
+Note: Some Marketo Data Streams are currently in Alpha and Beta states.
 
 ## Subscribing to Marketo Events
 
@@ -46,7 +46,7 @@ Here are some basic getting started instructions that will be the same for each 
 
 - Filter by `Experience Cloud`
 
-You should see the three Marketo Data Streams available.  Please see the individual page for each stream for further setup instructions.
+You should see the various Marketo Data Streams available.  Please see the individual page for each stream for further setup instructions.
 
 <DeveloperGuidelines/>
 
